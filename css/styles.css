@@ -342,7 +342,7 @@ body {
   line-height: 31px;
   text-decoration: none;
 
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
