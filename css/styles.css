@@ -392,6 +392,7 @@ body {
 
 .card {
   border: 1px solid var(--border-portfolio-color);
+  border-top: 0;
   padding: 20px 24px;
 }
 
