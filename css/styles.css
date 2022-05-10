@@ -81,11 +81,15 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 50px;
 }
 
+.headline.team {
+  padding-top: 51px;
+  padding-bottom: 50px;
+}
 .visiable {
   display: none;
 }
