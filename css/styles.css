@@ -55,9 +55,19 @@ body {
   padding-bottom: 94px;
 }
 
-.section + .section {
+.section.hide {
   padding-top: 0;
 }
+
+.imgage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* .section + .section {
+  padding-top: 0;
+} */
 
 /* Logo */
 
@@ -68,6 +78,14 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo.bottom {
+  margin-right: 0;
 }
 
 .logo span {
@@ -134,7 +152,7 @@ body {
   border-bottom: 1px solid var(--header-line-color);
 }
 
-.nav-menu .main-menu {
+.nav-menu.main-menu {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -160,6 +178,8 @@ body {
 .nav-menu .contacts {
   color: var(--secondary-text-color);
   text-decoration: none;
+  padding: 32px 0px;
+  display: block;
 }
 
 .nav-menu .link:hover,
@@ -175,7 +195,6 @@ body {
 
 .menu {
   display: flex;
-  margin-left: 93px;
   margin-right: auto;
 }
 
@@ -214,8 +233,10 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
+  width: 696px;
+  text-align: center;
 
-  margin-top: 0;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -228,6 +249,7 @@ body {
 
 .features-element {
   margin-right: 30px;
+  width: 270px;
 }
 
 .features-element:last-child {
@@ -256,7 +278,11 @@ body {
 }
 
 .jobs .example {
+  margin: 0;
   margin-right: 30px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .jobs .example:last-child {

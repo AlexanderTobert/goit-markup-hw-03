@@ -24,30 +24,32 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <nav class="nav-menu container">
-        <div class="main-menu">
-          <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
-          <ul class="list menu">
-            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
-          </ul>
-          <ul class="list group">
-            <li class="contact-info">
-              <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-            </li>
-            <li class="contact-info">
-              <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
+      <nav class="nav-menu main-menu container">
+        <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
+        <ul class="list menu">
+          <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li class="item"><a href="" class="link">Контакты</a></li>
+        </ul>
+        <!-- <div class="main-menu"> -->
+        <!-- </div> -->
+        <ul class="list group">
+          <li class="contact-info">
+            <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+          </li>
+          <li class="contact-info">
+            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <!-- Герой -->
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button order">Заказать услугу</button>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button order">Заказать услугу</button>
+        </div>
       </section>
       <!-- Особености -->
       <section class="section">
@@ -82,24 +84,24 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section hide">
         <div class="container">
           <h2 class="headline">Чем мы занимаемся</h2>
           <ul class="list jobs">
             <li class="example">
-              <img src="./images/box1.jpg" alt="планшет и клавиатура" width="370" height="294" />
+              <img src="./images/box1.jpg" alt="планшет и клавиатура" class="image" />
             </li>
             <li class="example">
-              <img src="./images/box2.jpg" alt="мобильный телефон" width="370" height="294" />
+              <img src="./images/box2.jpg" alt="мобильный телефон" class="image" />
             </li>
             <li class="example">
-              <img src="./images/box3.jpg" alt="графический планшет" width="370" height="294" />
+              <img src="./images/box3.jpg" alt="графический планшет" class="image" />
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="team section">
+      <section class="team section hide">
         <div class="container">
           <h2 class="headline team">Наша команда</h2>
           <ul class="list teammates">
@@ -145,7 +147,7 @@
 
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo-title"> <span class="logo">Web</span>Studio</a>
+        <a href="./index.html" class="logo-title"> <span class="logo bottom">Web</span>Studio</a>
         <address>
           <ul class="list contacts">
             <li>
